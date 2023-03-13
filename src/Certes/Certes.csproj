@@ -25,6 +25,7 @@
     <None Remove="Resources\Certificates\dst-root-ca-x3.pem" />
     <None Remove="Resources\Certificates\fake-le-root-x1.pem" />
     <None Remove="Resources\Certificates\isrg-root-x1.pem" />
+    <None Remove="Resources\Certificates\zerossl-aaa-certificate-services.pem" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +36,7 @@
     <EmbeddedResource Include="Resources\Certificates\dst-root-ca-x3.pem" />
     <EmbeddedResource Include="Resources\Certificates\fake-le-root-x1.pem" />
     <EmbeddedResource Include="Resources\Certificates\isrg-root-x1.pem" />
+    <EmbeddedResource Include="Resources\Certificates\zerossl-aaa-certificate-services.pem" />
   </ItemGroup>
 
   <ItemGroup>
